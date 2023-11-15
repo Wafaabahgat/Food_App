@@ -13,6 +13,8 @@ const Header = () => {
     try {
       const response = await signInWithPopup(firebaseAuth, provider);
       console.log(response);
+      console.log("onClick is triggered!");
+
     } catch (error) {
       console.error("Error signing in:", error.message);
     }
@@ -39,7 +41,7 @@ const Header = () => {
 
         <div className="mr-4 flex gap-4 items-center">
           <MdShoppingBasket className="text-2xl text-headingColor" />
-          <span className="absolute top-4 right-20 font-semibold text-white bg-cartNumBg rounded-full w-5 h-5 items-center flex justify-center">
+          <span className="absolute top-6 right-[74px] font-semibold text-white bg-cartNumBg rounded-full w-5 h-5 items-center flex justify-center">
             0
           </span>
           <Menu onClick={userLogin} />

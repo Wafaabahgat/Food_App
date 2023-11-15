@@ -3,7 +3,7 @@ import avatar from "@assets/avatar.png";
 import { motion } from "framer-motion";
 // import MenuCard from "./MenuCard";
 
-const Menu = () => {
+const Menu = ({ onClick }) => {
   // const [open, setOpen] = useState("");
   // const menuRef = useRef(null);
 
@@ -29,7 +29,7 @@ const Menu = () => {
 
   return (
     <>
-      <div>
+      <div onClick={onClick}>
         <motion.img
           src={avatar}
           alt="avatar"
