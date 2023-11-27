@@ -5,7 +5,7 @@
 
 // // import { useState } from "react";
 
-// const MenuCard = ({user}) => {
+// const MenuCard = ({ user }) => {
 //   // const [isLogin, setIsLogin] = useState(false);
 
 //   const firebaseAuth = getAuth(app);
@@ -41,16 +41,13 @@
 //           <li className="text-base text-textColor hover:text-headingColor duration-100 translation-all ease-in-out">
 //             Service
 //           </li>
-//           {/* {isLogin ? ( */}
 //           <li
 //             className="text-base text-textColor hover:text-headingColor duration-100 translation-all ease-in-out"
 //             onClick={userLogin}
 //           >
 //             Login
 //           </li>
-//           {/* ) : (
-//             ""
-//           )} */}
+
 //           <li className="text-base text-textColor hover:text-headingColor duration-100 translation-all ease-in-out">
 //             Logout
 //           </li>
